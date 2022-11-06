@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KALKULATOR</title>
+    <link rel="stylesheet" href="STYLE.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">HTML</a>
+        <ul>
+            <li><a href="znaczniki.html">ZNACZNIKI</a></li>
+            <li><a href="tabela.html">TABELA</a></li>
+            <li><a href="kalkulaor.html">KALKULATOR</a></li>
+            <li><a href="flormularze.html">FORMULARZ</a></li>
+            <li><a href="css.html">CSS</a></li>
+
+        </ul>
+        
+    </header>
+    <div class="baner"></div>
+    <div class="content">
+        <h1>KALKULATORY</h1>
+        <div class="code">
+            <xmp>
+                <form oninput="o.value=parseInt(a.value)*parseInt(b.value)
+                    +((a.value*b.value)*c.value)">
+                    Liczba godzin: <input type="number" id="a" value="8"> <br>
+                    Stawka:<input type="number" id="b" value="25">(PLN) <br>
+                    VAT:<input type="number" id="c" value="0.23"><br>
+                    =<output name="o">
+                    </output>
+                </form>
+            </xmp>
+        </div>
+        <div class="obrazek3">
+            <form oninput="o.value=parseInt(a.value)*parseInt(b.value)
+                +((a.value*b.value)*c.value)">
+                Liczba godzin: <input type="number" id="a" value="8"><br>
+                Stawka:<input type="number" id="b" value="25">(PLN)<br>
+                VAT:<input type="number" id="c" value="0.23"><br>
+                =<output name="o">
+                </output>
+            </form>
+        </div>
+        <div class="code2">
+            <xmp>
+                <form oninput="o.value=parseInt(a.value)+parseInt(b.value)">
+                    <input type="number" id="a" value="50">
+                    +<input type="number" id="b" value="25">
+                    =<output name="o" for="a b">
+                    </output>
+                </form>
+            </xmp>
+        </div>
+        <div class="obrazek4">
+            <form oninput="o.value=parseInt(a.value)+parseInt(b.value)">
+                <input type="number" id="a" value="50">
+                +<input type="number" id="b" value="25">
+                =<output name="o" for="a b">
+                </output>
+            </form>
+        </div>
+        <div class="code3">
+            <xmp>
+                </form>
+                <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    <input type="range" id="a" value="50">
+                    +<input type="number" id="b" value="25">
+                    =<output name="x" for="a b">
+                    </output>
+                </form>
+            </xmp>
+        </div>
+        <div class="obrazek5">
+            </form>
+            <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                <input type="range" id="a" value="50">
+                +<input type="number" id="b" value="25">
+                =<output name="x" for="a b">
+                </output>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
